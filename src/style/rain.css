@@ -1,0 +1,334 @@
+.cloud1 {
+  width: 210px;
+  height: 55px;
+  border-radius: 50px;
+  background-color: #e5e5e5;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+
+}
+
+.cloud2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #e5e5e5;
+  position: absolute;
+  top: 100px;
+  left: 170px;
+  z-index: -10px;
+}
+
+.cloud3 {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  background-color: #e5e5e5;
+  position: absolute;
+  top: 120px;
+  left: 260px;
+  z-index: -10px;
+}
+
+.rain li {
+  list-style: none;
+  height: 8px;
+  width: 4px;
+  border-radius: 100%;
+  background: #009999;
+  margin: 10px;
+
+  -webkit-animation: move 2s linear infinite;
+  -moz-animation: move 2s linear infinite;
+  -ms-animation: move 2s linear infinite;
+}
+
+.rain li:nth-child(1) {
+  position: relative;
+  top: 185px;
+  left: 170px;
+  z-index: -1;
+  -webkit-animation-delay: 892ms;
+  -moz-animation-delay: 892ms;
+  -ms-animation-delay: 892ms;
+}
+
+.rain li:nth-child(2) {
+  position: relative;
+  top: 165px;
+  left: 270px;
+  z-index: -1;
+  -webkit-animation-delay: 542ms;
+  -moz-animation-delay: 542ms;
+  -ms-animation-delay: 542ms;
+}
+
+.rain li:nth-child(3) {
+  position: relative;
+  top: 145px;
+  left: 290px;
+  z-index: -1;
+  -webkit-animation-delay: 987ms;
+  -moz-animation-delay: 987ms;
+  -ms-animation-delay: 987ms;
+}
+
+.rain li:nth-child(4) {
+  position: relative;
+  top: 115px;
+  left: 190px;
+  z-index: -1;
+  -webkit-animation-delay: 1677ms;
+  -moz-animation-delay: 1677ms;
+  -ms-animation-delay: 1677ms;
+}
+
+.rain li:nth-child(4) {
+  position: relative;
+  top: 125px;
+  left: 190px;
+  z-index: -1;
+  -webkit-animation-delay: 1250ms;
+  -moz-animation-delay: 1250ms;
+  -ms-animation-delay: 1250ms;
+}
+
+.rain li:nth-child(4) {
+  position: relative;
+  top: 125px;
+  left: 230px;
+  z-index: -1;
+  -webkit-animation-delay: 2789ms;
+  -moz-animation-delay: 2789ms;
+  -ms-animation-delay: 2789ms;
+}
+
+.rain li:nth-child(5) {
+  position: relative;
+  top: 115px;
+  left: 200px;
+  z-index: -1;
+  -webkit-animation-delay: 150ms;
+  -moz-animation-delay: 150ms;
+  -ms-animation-delay: 150ms;
+}
+
+.rain li:nth-child(6) {
+  position: relative;
+  top: 115px;
+  left: 220px;
+  z-index: -1;
+  -webkit-animation-delay: 786ms;
+  -moz-animation-delay: 786ms;
+  -ms-animation-delay: 786ms;
+}
+
+.rain li:nth-child(6) {
+  position: relative;
+  top: 95px;
+  left: 240px;
+  z-index: -1;
+  -webkit-animation-delay: 453ms;
+  -moz-animation-delay: 453ms;
+  -ms-animation-delay: 453ms;
+}
+
+.rain li:nth-child(7) {
+  position: relative;
+  top: 5px;
+  left: 290px;
+  z-index: -1;
+  -webkit-animation-delay: 550ms;
+  -moz-animation-delay: 550ms;
+  -ms-animation-delay: 550ms;
+}
+
+.rain li:nth-child(7) {
+  position: relative;
+  top: 55px;
+  left: 150px;
+  z-index: -1;
+  -webkit-animation-delay: 1359ms;
+  -moz-animation-delay: 1359ms;
+  -ms-animation-delay: 1359ms;
+}
+
+.rain li:nth-child(8) {
+  position: relative;
+  top: 45px;
+  left: 270px;
+  z-index: -1;
+  -webkit-animation-delay: 1950ms;
+  -moz-animation-delay: 1950ms;
+  -ms-animation-delay: 1950ms;
+}
+
+.rain li:nth-child(9) {
+  position: relative;
+  top: 25px;
+  left: 224px;
+  z-index: -1;
+  -webkit-animation-delay: 2350ms;
+  -moz-animation-delay: 2350ms;
+  -ms-animation-delay: 2350ms;
+}
+
+.rain li:nth-child(10) {
+  position: relative;
+  top: 2px;
+  left: 314px;
+  z-index: -1;
+  -webkit-animation-delay: 1750ms;
+  -moz-animation-delay: 1750ms;
+  -ms-animation-delay: 1750ms;
+}
+
+@-webkit-keyframes move {
+  100% {
+    top: 255px;
+  }
+}
+
+.thunder-container {
+  position: absolute;
+  top: 210px;
+  left: 215px;
+
+}
+
+.thunder-container .thunder1 {
+
+  background-color: yellow;
+  width: 15px;
+  height: 30px;
+  position: relative;
+  left: 18px;
+  top: -5px;
+  -webkit-transform: skew(-45deg);
+  -webkit-animation: flash 3s linear infinite;
+  -moz-transform: skew(-45deg);
+  -moz-animation: flash 3s linear infinite;
+  -ms-transform: skew(-45deg);
+  -ms-animation: flash 3s linear infinite;
+
+}
+
+.thunder-container .thunder2 {
+
+  background-color: yellow;
+  width: 15px;
+  height: 40px;
+  position: relative;
+  top: -10px;
+  left: 2px;
+  -webkit-transform: skew(-45deg);
+  -webkit-animation: flash 3s linear infinite;
+  -moz-transform: skew(-45deg);
+  -moz-animation: flash 3s linear infinite;
+  -ms-transform: skew(-45deg);
+  -ms-animation: flash 3s linear infinite;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    background: none;
+
+  }
+  25% {
+    background: none;
+
+  }
+  50% {
+    background: none;
+  }
+  65% {
+    background: none;
+  }
+  75% {
+    background: none;
+  }
+  80% {
+    background: yellow;
+  }
+  100% {
+    background: none;
+  }
+}
+
+@-moz-keyframes flash {
+  0% {
+    background: none;
+
+  }
+  25% {
+    background: none;
+
+  }
+  50% {
+    background: none;
+  }
+  65% {
+    background: none;
+  }
+  75% {
+    background: none;
+  }
+  80% {
+    background: yellow;
+  }
+  100% {
+    background: none;
+  }
+}
+
+@-ms-keyframes flash {
+  0% {
+    background: none;
+
+  }
+  25% {
+    background: none;
+
+  }
+  50% {
+    background: none;
+  }
+  65% {
+    background: none;
+  }
+  75% {
+    background: none;
+  }
+  80% {
+    background: yellow;
+  }
+  100% {
+    background: none;
+  }
+}
+@keyframes  flash {
+  0% {
+    background: none;
+
+  }
+  25% {
+    background: none;
+
+  }
+  50% {
+    background: none;
+  }
+  65% {
+    background: none;
+  }
+  75% {
+    background: none;
+  }
+  80% {
+    background: yellow;
+  }
+  100% {
+    background: none;
+  }
+}
